@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Luckiest+Guy&display=swap');
+
 :root {
 	--gradient-space: 20px;
 	--gradient-height: 2px;
+}
+
+@font-face {
+	src: url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+	font-family: "Luckiest Guy", cursive;
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Luckiest+Guy&display=swap');
+	font-family: "Grandstander", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
@@ -62,7 +81,7 @@
 .gradient-underline {
 	line-height: 0.6em;
 	vertical-align: 0em;
-	border-bottom: .20em solid transparent;
+	border-bottom: .18em solid transparent;
 	-moz-border-image: -moz-linear-gradient(left, theme('colors.pacamara-secondary') 0%, theme('colors.pacamara-accent') 100%);
 	-webkit-border-image: -webkit-linear-gradient(left, theme('colors.pacamara-secondary') 0%, theme('colors.pacamara-accent') 100%);
 	border-image: linear-gradient(to right, theme('colors.pacamara-secondary') 0%, theme('colors.pacamara-accent') 100%);
@@ -72,7 +91,7 @@
 }
 
 .gradient-underline span {
-	vertical-align: -0.38em;
+	vertical-align: -0.35em;
 }
 
 .image-shine {
